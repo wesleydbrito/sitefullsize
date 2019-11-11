@@ -1,3 +1,70 @@
-header {
-    background-image: url('img/office-336368_1920.png');
+
+div.img-fundo {
+    width: 100%;
+    height: 1040px;
+    background: linear-gradient(rgba(61, 13, 13, .3),rgba(61, 13, 13, .3)), url('img/office-336368_1920.png') no-repeat
+} 
+.nav-item {
+    margin: 0 20px;
+    
+}
+.nav-link.custom {
+    color: rgba(255,255,255,.9)!important;
+}
+.nav-link:hover, form.SingUP a:hover {
+    color: #FD750E!important;
+    
+  }
+.orange {
+    color: #FD750E;
+}
+header .container.form {
+    margin-top: 190px;
+    margin-bottom: 400px;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    /* font-size: 48px; */
+    font-weight: 600;
+    line-height: 72px;
+}
+header h1 {
+    text-indent: 1.5em;
+}
+header h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: 35px;
+}
+label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: 35px;
+    display: inline-block;
+    margin-bottom: 26px;
+}
+form.SingUP{
+    max-width: 360px;
+}
+.form-control, .btn {
+    border-radius: unset;
+}
+.btn-custom {
+    color: #fff;
+    background-color: #FD750E;
+    border-color: #FD750E;
+    width: 100%;
+    margin-top: 8px;
+}
+.btn-custom:hover {
+    color: #fff;
+    background-color: #fd903e;
+    border-color: #fd903e;
+}
+form.SingUP a {
+    text-decoration: none;
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
 }
